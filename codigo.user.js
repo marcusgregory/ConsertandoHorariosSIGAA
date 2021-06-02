@@ -115,6 +115,11 @@ if (url.includes("public/turmas/listar.jsf")) {
     Array.from(document.querySelectorAll("img[src='/shared/img/geral/ajuda.gif']"))
     .forEach((icon) => icon.hidden = true);
 }
+if (url.includes("portais/discente/discente.jsf")) {
+    Array.from(document.querySelectorAll("#agenda-docente > table > tbody > tr:nth-child(9) > td"))
+    .forEach((td) => td.hidden = true);
+}
+
 
 /** Procedimento para alterar o tamanho da coluna dos horários, dependendo de qual página foi aberta */
 Array.from(document.querySelectorAll("tHead th"))              // seleciona todos os cabeçalhos de tabelas na página
