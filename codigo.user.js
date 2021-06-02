@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Consertando os horários do SIGAA UnB
-// @namespace    https://github.com/luthierycosta
+// @name         Consertando os horários do SIGAA Unilab
+// @namespace    https://github.com/marcusgregory
 // @version      1.2.4
-// @icon         https://github.com/luthierycosta/ConsertandoHorariosSIGAA/blob/master/images/icon.png?raw=true
-// @description  Traduz as informações de horários das turmas no SIGAA (novo sistema da UnB), de formato pouco entendível, por dias e horas escritas por extenso.
+// @icon         https://github.com/marcusgregory/ConsertandoHorariosSIGAA/blob/master/images/icon.png?raw=true
+// @description  Traduz as informações de horários das turmas no SIGAA (novo sistema da Unilab), de formato pouco entendível, por dias e horas escritas por extenso.
 // @author       Luthiery Costa
 // @supportURL   https://github.com/luthierycosta
 // @match        https://sig.unilab.edu.br/sigaa/*
